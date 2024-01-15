@@ -1,2 +1,2 @@
-# trabajoDise-oWeb
+# trabajoDisenyoWeb
 Web básica co boostrap
