@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes por España</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Viajes por España</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencias">Experiencias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio con Carrusel -->
+    <div id="inicioCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/madrid1.jpg" alt="Bellezas de España" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Descubre España</h3>
+                    <p>Un país lleno de historia, cultura y bellezas naturales.</p>
+                </div>
+            </div>
+            <!-- Puedes agregar más imágenes al carrusel aquí -->
+        </div>
+    </div>
+
+    <!-- Sección de Destinos -->
+    <section id="destinos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Destinos Populares</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/madrid1.jpg" alt="Madrid">
+                        <div class="card-body">
+                            <h5 class="card-title">Madrid</h5>
+                            <p class="card-text">La capital llena de arte, historia y vibrante vida nocturna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/sevilla.jpg" alt="sevilla">
+                        <div class="card-body">
+                            <h5 class="card-title">Sevilla</h5>
+                            <p class="card-text">Un encantador mosaico de cultura, arquitectura y gastronomía. </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Repetir para otros destinos si es necesario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencias -->
+    <section id="experiencias" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Experiencias Únicas</h2>
+            <p>Participa en las fiestas locales, disfruta de la gastronomía y explora paisajes naturales únicos.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>2023 Viajes por España. Derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
